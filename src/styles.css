@@ -43,3 +43,16 @@ button:focus{
 span {
   margin: 0 10px;
 }
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+}
+
+input {
+  display: block;
+  margin: 5px;
+}

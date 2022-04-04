@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contador',
-  template: ` <h1>{{ title }}</h1>
+  template: ` <h2>{{ title }}</h2>
     <h3>La base es: <b>2</b></h3>
     <button (click)="numero = numero / base">/2</button>
     <button (click)="restar(base)">-2</button>
